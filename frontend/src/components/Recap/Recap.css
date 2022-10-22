@@ -1,0 +1,33 @@
+.container-recap{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.375rem;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.container-recap .title{
+  width: 100%;
+  text-align: left;
+}
+.container-recap .container-coins{
+  width: 100%;
+}
+
+.container-recap .container-chart{
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container-recap{
+    gap: 1rem;
+  }
+  .container-recap .container-chart{
+    position: relative;
+    display: inline-block;
+    flex: 400px;
+    width: 100%;
+  }
+}

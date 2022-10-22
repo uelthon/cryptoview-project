@@ -1,0 +1,33 @@
+.container-calculator{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container-calculator input{
+  width: 60%;
+}
+
+.container-calculator input,
+.container-calculator select,
+.container-calculator span{
+  padding: 0.750em;
+  font-weight: 700;
+  color: #002358;
+}
+
+.container-calculator span,
+.container-calculator select{
+  text-align: center;
+  background-color: #126bff;
+  color: #fff;
+}
+
+.container-calculator span{
+  border-radius: 0 5px 5px 0;
+}
+
+.container-calculator select{
+  cursor: pointer;
+}
+

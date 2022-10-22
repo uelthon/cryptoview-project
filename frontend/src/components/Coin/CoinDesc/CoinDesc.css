@@ -1,0 +1,15 @@
+.container-description{
+  color: #002358 ;
+  max-height: 80vh ;
+  overflow-x: auto ;
+  padding: 0.375rem;
+  scrollbar-width: thin;
+}
+
+.container-description::-webkit-scrollbar{
+  width: 8px;
+  background-color: #f0f0f0;
+}
+.container-description::-webkit-scrollbar-thumb{
+  background-color: #cdcdcd;
+}

@@ -1,0 +1,13 @@
+.container-sort-coins{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.container-sort-coins select{
+  color: #002358;
+  font-weight: bold;
+  text-align: left;
+  width: auto;
+}

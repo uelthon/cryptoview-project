@@ -1,0 +1,18 @@
+.container-coin-stats{
+  color: #002358;
+}
+
+.container-coin-stats th,
+.container-coin-stats td{
+  color: #002358;
+}
+
+.container-coin-stats h2{
+  color: #000;
+}
+
+.container-coin-stats svg{
+  width: 30px;
+  height: 30px;
+  fill: #0060ff;
+}

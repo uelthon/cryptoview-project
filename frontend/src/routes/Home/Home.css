@@ -1,0 +1,30 @@
+.container-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem ;
+  width: 100%;
+  min-height: 80vh;
+  color: #002358;
+}
+
+.container-home-recap{
+  width: 90%;
+}
+
+.container-home-globalstats{
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .container-home{
+      gap:2rem;
+    }
+    .container-home-recap{
+      width: 80%;
+    }
+    .container-home-globalstats{
+      width: 80%;
+    }
+}

@@ -1,0 +1,15 @@
+.table-coins{
+  color: #002358;
+}
+
+.table-coins tr{
+  font-weight: bold ;
+}
+
+.table-coins th{
+  color: #2d4c79;
+}
+
+.table-coins td{
+  color: #002358;
+}

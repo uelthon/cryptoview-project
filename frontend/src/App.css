@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scrollbar-width: thin;
+}
+
+html::-webkit-scrollbar{
+  width: 8px;
+  background-color: #f0f0f0;
+}
+
+html::-webkit-scrollbar-thumb{
+  background-color: #cdcdcd;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.App{
+  width: 100%;
+}

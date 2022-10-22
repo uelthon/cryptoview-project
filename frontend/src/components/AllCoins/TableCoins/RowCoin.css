@@ -1,0 +1,16 @@
+.row-coin{
+  display: flex;
+  align-items: center;
+  gap:0.375rem;
+}
+
+.row-coin .symbol{
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.row-coin-chart{
+  position: relative;
+  width: 64px;
+  height: 25px;
+}

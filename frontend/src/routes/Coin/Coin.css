@@ -1,0 +1,31 @@
+.container-coin{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container-coin-components{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.container-coin .container-grid{
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+@media screen and (min-width:768px) {
+  .container-coin-components{
+    width: 80%;
+  }
+  .container-coin .container-grid{
+    grid-template-columns: 50% 50%;
+  }
+}

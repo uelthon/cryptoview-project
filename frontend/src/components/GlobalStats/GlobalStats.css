@@ -1,0 +1,38 @@
+.container-globalstats{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.container-globalstats strong,
+.container-globalstats p{
+  color: #002358;
+}
+
+.container-globalstats svg{
+  fill: #0060ff;
+  width: 30px;
+  height: 30px;
+}
+
+.container-globalstats .title{
+  width: 100%;
+  text-align: left;
+}
+
+.container-globalstats .title p{
+  font-size: 15px;
+  font-weight: bold;
+  color: #264d89;
+  padding-left: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width:768px) {
+  .container-globalstats .title p{
+    width: 70%;
+  }
+}
